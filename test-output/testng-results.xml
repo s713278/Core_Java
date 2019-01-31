@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="406" started-at="2019-01-31T16:48:55Z" finished-at="2019-01-31T16:48:55Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="406" started-at="2019-01-31T16:48:55Z" finished-at="2019-01-31T16:48:55Z">
+      <class name="com.zensar.scopes.MathServiceImplTest">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.zensar.scopes.MathServiceImplTest@56de5251]" name="beforeTest" is-config="true" duration-ms="16" started-at="2019-01-31T16:48:55Z" finished-at="2019-01-31T16:48:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="springTestContextPrepareTestInstance()[pri:0, instance:com.zensar.scopes.MathServiceImplTest@56de5251]" name="springTestContextPrepareTestInstance" is-config="true" duration-ms="359" started-at="2019-01-31T16:48:55Z" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" finished-at="2019-01-31T16:48:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextPrepareTestInstance -->
+        <test-method status="PASS" signature="springTestContextBeforeTestClass()[pri:0, instance:com.zensar.scopes.MathServiceImplTest@56de5251]" name="springTestContextBeforeTestClass" is-config="true" duration-ms="0" started-at="2019-01-31T16:48:55Z" finished-at="2019-01-31T16:48:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestClass -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.zensar.scopes.MathServiceImplTest@56de5251]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="0" started-at="2019-01-31T16:48:55Z" finished-at="2019-01-31T16:48:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.zensar.scopes.MathServiceImplTest.sum1()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="sum1()[pri:0, instance:com.zensar.scopes.MathServiceImplTest@56de5251]" name="sum1" duration-ms="16" started-at="2019-01-31T16:48:55Z" finished-at="2019-01-31T16:48:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sum1 -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.zensar.scopes.MathServiceImplTest@56de5251]" name="beforeClass" is-config="true" duration-ms="0" started-at="2019-01-31T16:48:55Z" finished-at="2019-01-31T16:48:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="springTestContextAfterTestClass()[pri:0, instance:com.zensar.scopes.MathServiceImplTest@56de5251]" name="springTestContextAfterTestClass" is-config="true" duration-ms="0" started-at="2019-01-31T16:48:55Z" finished-at="2019-01-31T16:48:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestClass -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.zensar.scopes.MathServiceImplTest@56de5251]" name="afterClass" is-config="true" duration-ms="0" started-at="2019-01-31T16:48:55Z" finished-at="2019-01-31T16:48:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.zensar.scopes.MathServiceImplTest@56de5251]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="0" started-at="2019-01-31T16:48:55Z" finished-at="2019-01-31T16:48:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.zensar.scopes.MathServiceImplTest.sum2()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.zensar.scopes.MathServiceImplTest@56de5251]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="0" started-at="2019-01-31T16:48:55Z" finished-at="2019-01-31T16:48:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.zensar.scopes.MathServiceImplTest.sum2()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.zensar.scopes.MathServiceImplTest@56de5251]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="0" started-at="2019-01-31T16:48:55Z" finished-at="2019-01-31T16:48:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.zensar.scopes.MathServiceImplTest.sum1()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="sum2()[pri:0, instance:com.zensar.scopes.MathServiceImplTest@56de5251]" name="sum2" duration-ms="0" started-at="2019-01-31T16:48:55Z" finished-at="2019-01-31T16:48:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sum2 -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.zensar.scopes.MathServiceImplTest@56de5251]" name="afterTest" is-config="true" duration-ms="0" started-at="2019-01-31T16:48:55Z" finished-at="2019-01-31T16:48:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.zensar.scopes.MathServiceImplTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
