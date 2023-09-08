@@ -1,13 +1,13 @@
-package com.zensar;
+package com.test;
 
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 
-import com.zensar.scopes.MathService;
+import com.test.scopes.MathService;
 
 @Configuration
-@ComponentScan("com.zensar")
+@ComponentScan("com.test")
 public class SpringJavaAnnotationApplication {
 
 	public static void main(String[] args) {

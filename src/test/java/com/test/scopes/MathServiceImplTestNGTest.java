@@ -1,4 +1,4 @@
-package com.zensar.scopes;
+package com.test.scopes;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.test.context.ContextConfiguration;
@@ -10,7 +10,7 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-import com.zensar.SpringJavaAnnotationApplication;
+import com.test.SpringJavaAnnotationApplication;
 
 @ContextConfiguration(classes = SpringJavaAnnotationApplication.class)
 public class MathServiceImplTestNGTest extends AbstractTestNGSpringContextTests {

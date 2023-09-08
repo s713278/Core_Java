@@ -1,4 +1,4 @@
-package com.test;
+package com.test.io;
 
 import java.io.BufferedReader;
 import java.io.File;

@@ -9,10 +9,10 @@
 		<version>2.1.1.RELEASE</version>
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.zensar</groupId>
+	<groupId>com.test</groupId>
 	<artifactId>spring-java-annotation</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>spring-java-annotation</name>
+	<name>Java_Programs</name>
 	<description>Demo spring java annotation examples</description>
 
 	<properties>
