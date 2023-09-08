@@ -1,0 +1,17 @@
+One
+Two
+Thress
+Ssssssssssssssssss
+sdsdasasd
+fsfsdfsddfs
+asfassaf
+
+//Function Hall-- weddings/birthdays/college get/reunion
+
+//Second salary
+
+select * from 
+			(select rownum, empid,salary from emp order by salary desc) 
+			where rownum=3;
+
+

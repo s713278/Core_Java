@@ -1,4 +1,4 @@
-package com.tavant;
+package com.coding.programs;
 
 import java.util.HashMap;
 import java.util.Iterator;
@@ -9,9 +9,9 @@ import java.util.Map.Entry;
 import java.util.Set;
 import java.util.stream.Collectors;
 
-public class SortedHashMap {
+public class SortedHashMapByValue {
 
-	public SortedHashMap() {
+	public SortedHashMapByValue() {
 	}
 
 	public static Map<String, Integer> sortByValue(Map<String, Integer> scoreMap) {

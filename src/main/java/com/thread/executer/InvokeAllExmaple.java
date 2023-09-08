@@ -1,6 +1,5 @@
-package com.zensarthread.executer;
+package com.thread.executer;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.concurrent.Callable;
@@ -8,27 +7,6 @@ import java.util.concurrent.ExecutionException;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.Future;
-
-class EmpService {
-	public String getEmpName(Integer no) {
-
-		try {
-			Thread.sleep(1000);
-		} catch (InterruptedException e) {
-			e.printStackTrace();
-		}
-		if (no % 3 == 0)
-			return "K Swamy";
-
-		if (no % 2 == 0)
-			return "K Chetan Dutta";
-
-		if (no % 2 == 5)
-			return "K Kushika Dutta";
-
-		return "K Ram";
-	}
-}
 
 public class InvokeAllExmaple {
 
