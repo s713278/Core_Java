@@ -12,7 +12,7 @@
 	<groupId>com.test</groupId>
 	<artifactId>spring-java-annotation</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>Java_Programs</name>
+	<name>CoreJava</name>
 	<description>Demo spring java annotation examples</description>
 
 	<properties>

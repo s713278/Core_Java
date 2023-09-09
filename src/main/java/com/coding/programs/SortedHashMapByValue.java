@@ -31,7 +31,7 @@ public class SortedHashMapByValue {
 		}
 		return sortedHashMap;
 	}
-
+	
 	public static void main(String[] args) {
 		Map<String, Integer> scores = new HashMap<>();
 		scores.put("David", 95);
