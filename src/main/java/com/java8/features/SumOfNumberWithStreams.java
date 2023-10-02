@@ -12,6 +12,8 @@ public class SumOfNumberWithStreams {
 		System.out.println("Sum \t:"+sum);
 		sum = nos.stream().mapToInt(Integer::intValue).sum();
 		System.out.println("Sum \t:"+sum);
+		int min= nos.stream().min((a,b)->(a-b)).get();
+		System.out.println("Min \t:"+min);
 	}
 
 }
