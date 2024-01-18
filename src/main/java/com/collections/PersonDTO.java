@@ -3,8 +3,55 @@ package com.collections;
 public class PersonDTO {
 
 	private String name;
-	private String age;
+	private int age;
 	private String gender;
+	
+	public PersonDTO(String name, int age, String gender) {
+		super();
+		this.name = name;
+		this.age = age;
+		this.gender = gender;
+	}
+	
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public int getAge() {
+		return age;
+	}
+	public void setAge(int age) {
+		this.age = age;
+	}
+	public String getGender() {
+		return gender;
+	}
+	public void setGender(String gender) {
+		this.gender = gender;
+	}
+	
+	 @Override
+	    public int hashCode() {
+	        return 31 * name.hashCode() + age;
+	    }
+	 
+	@Override
+	public boolean equals(Object obj) {
+		PersonDTO personDTO = (PersonDTO)obj;
+		if(this.getName().equals(personDTO.getName()) && this.getAge() == personDTO.getAge()) {
+			return true;
+		}
+		return false;
+	}
+
+	@Override
+	public String toString() {
+		return "PersonDTO [name=" + name + ", age=" + age + ", gender=" + gender + "]";
+	}
+	
+	
 	
 //1 . Create a list with 6 unique entries and 2 duplicate entries and Display.
 //2 . Create persons groups by gender and Print the count of personse under the same gender.
@@ -12,4 +59,6 @@ public class PersonDTO {
 //4 . Create a utility method to display only
 		//-- Females
 		//--Age >20 and < 30
+	
+	
 }
