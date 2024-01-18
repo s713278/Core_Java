@@ -3,13 +3,50 @@ package com.collections;
 public class PersonDTO {
 
 	private String name;
-	private String age;
+	private int age;
 	private String gender;
-	
-//1 . Create a list with 6 unique entries and 2 duplicate entries and Display.
-//2 . Create persons groups by gender and Print the count of personse under the same gender.
-//3 . Create a utility method to Identify the repeated/duplicate PersonDTO whose name ,age and gender are same.
-//4 . Create a utility method to display only
-		//-- Females
-		//--Age >20 and < 30
+
+
+	public PersonDTO(){ super(); }
+
+	public PersonDTO( String name, int age, String gender){
+		this.name = name;
+		this.age = age;
+		this.gender = gender;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public int getAge() {
+		return age;
+	}
+
+	public void setAge(int age) {
+		this.age = age;
+	}
+
+	public String getGender() {
+		return gender;
+	}
+
+	public void setGender(String gender) {
+		this.gender = gender;
+	}
+
+	@Override
+	public String toString() {
+		return "PersonDTO{" +
+				"name='" + name + '\'' +
+				", age=" + age +
+				", gender='" + gender + '\'' +
+				'}';
+	}
+
+
 }

@@ -1,5 +1,6 @@
 package com.collections;
 
+
 public class ProductDTO {
 
 	private int id;
