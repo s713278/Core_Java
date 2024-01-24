@@ -2,19 +2,27 @@ package com.collections;
 
 public class PersonDTO {
 
+	private Integer id;
 	private String name;
 	private int age;
 	private String gender;
 
+	public PersonDTO() {
+	}
 
-	public PersonDTO(){ super(); }
-
-	
-	public PersonDTO(String name, int age, String gender) {
-		super();
+	public PersonDTO(Integer id, String name, int age, String gender) {
+		this.id = id;
 		this.name = name;
 		this.age = age;
 		this.gender = gender;
+	}
+
+	public Integer getId() {
+		return id;
+	}
+
+	public void setId(Integer id) {
+		this.id = id;
 	}
 
 	public String getName() {
@@ -44,10 +52,10 @@ public class PersonDTO {
 	@Override
 	public String toString() {
 		return "PersonDTO{" +
-				"name='" + name + '\'' +
+				"id=" + id +
+				", name='" + name + '\'' +
 				", age=" + age +
 				", gender='" + gender + '\'' +
 				'}';
 	}
-
 }
