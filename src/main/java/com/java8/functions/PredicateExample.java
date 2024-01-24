@@ -18,7 +18,6 @@ public class PredicateExample {
 		
 		
 		Predicate<PersonDTO> genderPredicate = (p)-> p.getGender().equalsIgnoreCase("male");
-		System.out.println("Is Person Male ??  "+genderPredicate.test(new PersonDTO("JOhn", 33, "Male")) );
 		
 
 	}
