@@ -43,6 +43,10 @@ public class FlatMapExample {
 		System.out.println("UniqueList "+uniqueList);
 											
 		
+		//Sum of all numbers
+		int sum = listOfLists.stream().flatMap(t ->t.stream() ).collect(Collectors.summingInt(value -> value)).intValue();
+		System.out.println(" Sum :"+sum);
+		
 		
 	}
 

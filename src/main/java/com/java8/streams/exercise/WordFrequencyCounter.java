@@ -1,5 +1,6 @@
 package com.java8.streams.exercise;
 import java.util.*;
+import java.util.stream.Collectors;
 /*
  * 1 .Write a method that counts the frequency of each word in a given List of strings and stores the result in a Map.
 Input:
@@ -25,6 +26,15 @@ public class WordFrequencyCounter {
         return frequencyMap;
     }
 
+    
+    public static void countWordFrequencyUsingStream(List<String> words) {
+        
+        words.stream()
+        	.map(String ::toLowerCase)
+        	.collect(Collectors.groupingBy(t -> t.toString(),Collectors.counting())).forEach((t, u) -> System.out.println(t+" "+u));;
+      
+    }
+
     public static void main(String[] args) {
         // Sample input
         List<String> inputWords = Arrays.asList("apple", "orange", "apple", "banana", "Orange", "Apple");
@@ -35,5 +45,6 @@ public class WordFrequencyCounter {
         // Sample output
         System.out.println("Input List: " + inputWords);
         System.out.println("Word Frequency Map: " + result);
+        countWordFrequencyUsingStream(inputWords);
     }
 }
